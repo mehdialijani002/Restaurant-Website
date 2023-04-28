@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/9e786522eb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /><link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+
+    <title>FAST FOOD|restuarant</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="loader">
+        
+      </div>
+      <button class="nav-btn open-btn">
+        <i class="fa-solid fa-bars fa-beat fa-2xl" style="color: #ffffff;"></i>
+      </button>
+      <div class="nav nav-black">
+        <div class="nav nav-red">
+          <div class="nav nav-white">
+            <button class="nav-btn close-btn">
+              <i class="fa-solid fa-xmark fa-beat fa-2xl" style="color: #000000;"></i>
+            </button>
+            <img
+              src="image_nav/fast_delivery_icon.jpg"
+              alt="icon"
+              class="logo"
+            />
+            <ul class="list"><a href="#menu"></a>
+              <li><a href="#menu"></a>MENU</li>
+              <li><a href="#vote"></a>VOTE</li>
+              <li><a href="#LOGIN"></a>LOGIN</li>
+              <li>
+                
+                  <li><a href="#PICTURE"></a>PICTURE</li>
+                  <li><a href="#BESTCOMMENT"></a>BEST COMMENT</li>
+                  <li><a href="#Frequently Asked Question"></a>Frequently Asked Question</li>
+                  <li><a href="#ABOUT"></a>ABOUT</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="logo_box">
+       
+      <div class="text_box">
+        <h1 class="header_title">
+          <span class="main_header">FAST F<span class="header_title_effect">OO</span>D
+          <span class="sub_header"
+            >we have honor to delivery your food as soon as possible</span
+          >
+        </h1>
+        <a href="#order" class="btn btn-white">Order Now!</a>
+      </div>
+      <div>
+        
+      </div>
+    </header>
+    <h2 class="subheader_text">WHAT EVER YOU WANT</h2>
+    <div class="under_header">
+      <div class="container">
+        <div
+          class="panel active"
+          style="background-image: url(image_part2/burger.jpg)"
+        ></div>
+        <div
+          class="panel"
+          style="background-image: url(image_part2/pasta.jpg)"
+        ></div>
+        <div
+          class="panel"
+          style="background-image: url(image_part2/pizza.jpg)"
+        ></div>
+        <div
+          class="panel"
+          style="background-image: url(image_part2/salad.jpg)"
+        ></div>
+        <div
+          class="panel"
+          style="background-image: url(image_part2/sandwich.jpg)"
+        ></div>
+      </div>
+    </div>
+    <div class="specialoffer">
+      
+    </div>
+    <div class="menu"id="order">
+        <div class="menu_header">
+            
+            <div class="menu-foodlist">
+              <h1 class="menu-title">MENU</h1>
+              <h2>What Ever You Want...</h2>
+              <ul class="nav-menu" id="menu">
+              <li class="nav-menu-item"><a href="#pizza"> pizza</a></li>
+              <li class="nav-menu-item"><a href="#salad"> Salad</a></li>
+              <li class="nav-menu-item"><a href="#pasta"> pasta</a></li>
+              <li class="nav-menu-item"><a href="#Fried Chicken">Fried Chicken</a></li>
+              <li class="nav-menu-item"><a href="#drinks ">Drinks</a></li>
+            </ul>
+          </div>
+            <div class="shopping">
+              <i class="shopping-title fa-solid fa-cart-shopping fa-2xl" style="color: #f58f00;"></i>
+              <span class="quantity">0</span>
+            </div>
+          </div>
+      
+          <div class="list_menu">
+          </div>
+            <div class="card">
+              <h1>Card</h1>
+              <ul class="listCard"></ul>
+              <div class="checkOut">
+                <div class="total">0</div>
+                <div class="closeShopping">Close</div>
+              </div>
+            </div>
+        </div>
+    
+    <div class="loading">
+      <div class="hexagon" aria-label="Animated hexagonal ripples">
+        <div class="hexagon__group">
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+        </div>
+        <div class="hexagon__group">
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+        </div>
+        <div class="hexagon__group">
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+        </div>
+        <div class="hexagon__group">
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+        </div>
+        <div class="hexagon__group">
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+        </div>
+        <div class="hexagon__group">
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+          <div class="hexagon__sector"></div>
+        </div>
+      </div>
+      <p aria-label="Loading">FAST FOOD Restuarant</p>
+
+    </div>
+    <div class="comment">
+        <h1 class="comment-header">
+          Best Comments
+        </h1>
+        <div class="testimonial-container">
+        <div class="progress-bar"></div>
+        <div class="fas fa-quote-right fa-quote"></div>
+        <div class="fas fa-quote-left fa-quote"></div>
+        <p class="testimonial">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam a nam
+          dicta deserunt nulla id porro omnis? Enim odio illum modi voluptates
+          asperiores, sequi deserunt quod optio architecto harum repellat?
+        </p>
+        <div class="user">
+          <img
+            src=""
+            alt=""
+            class="user-image"
+          />
+          <div class="user-details">
+            <h4 class="username">jack smith</h4>
+            <p class="role">marketing</p>
+          </div>
+        </div>
+        </div>
+        <div class="question">
+          <h1 class="question-title">Frequently Asked Question</h1>
+    <div class="faq-container">
+      <div class="faq active">
+        <h3 class="faq-title">رستوران شما چند سال فعالیت دارد؟</h3>
+
+        <p class="faq-text">با افتخار بیش از نیم قرن</p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="faq">
+        <h3 class="faq-title">
+          حداکثر زمان رسیدن سفارش های بیرون بر چقدر است؟
+        </h3>
+
+        <p class="faq-text">در شرایط عادی حداکثر نیم ساعت</p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="faq">
+        <h3 class="faq-title">چرا باید رستوران شما رو انخاب کنیم؟</h3>
+
+        <p class="faq-text">رستوران ما دارای مدرن ترین دستگاه صنعت اشپزی است</p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="faq">
+        <h3 class="faq-title">ایا رستوران شما مجوز های جهانی هم داره؟</h3>
+
+        <p class="faq-text">
+          رستوران ما زیر نظر بهترین موسسات در امریکا و اروپاست
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="faq">
+        <h3 class="faq-title">سریع ترین راه سفارش به چه صورت است؟</h3>
+
+        <p class="faq-text">
+          شما میتوانید با مراجعه به وبسایت ما تجربه یک سفارش راحت و بی دردسر با
+          کمترین زمان ممکن رو داشته باشید
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+        </div>
+        
+        <div class="vote" id="vote">
+          <div id="panel" class="panel-container">
+            <strong style="font-size: x-large;">نظر شما درباره رستوران ما چیست؟</strong>
+              
+              
+            <div class="rating-container">
+              <div class="rating">
+                <img class="vote_img" style="width: 50px" src="imagevote/unhappy.png" alt="unhappypic" />
+                <small>unhappy</small>
+              </div>
+              <div class="rating">
+                <img class="vote_img"
+                  style="width: 50px"
+                  src="imagevote/Neutral.jpg"
+                  alt="neutral"
+                />
+                <small>neutral</small>
+              </div>
+              <div class="rating">
+                <img class="vote_img" style="width: 50px" src="imagevote/satisfied.jpg" alt="satisfied" />
+                <small>satisfied</small>
+              </div>
+            </div>
+            <button class="btn_vote" id="send">Send Review</button>
+          </div>
+        </div>
+        <div class="load">
+        <div id="load">
+          <div>D</div>
+          <div>O</div>
+          <div>O</div>
+          <div>F</div>
+          <div>T</div>
+          <div>S</div>
+          <div>A</div>
+          <div>F</div>
+        </div>
+      </div>
+        <div class="about_form">
+          <section class="contact">
+            <div class="content">
+              <h2>Contact Us</h2>
+              
+            </div>
+            <div class="about_container">
+              <div class="contactInfo">
+                <div class="box">
+                  <div class="icon">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  </div>
+                  <div class="about_text">
+                    <h3>Address</h3>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam quos dignissimos eaque eveniet deserunt delectus ea! Voluptas, beatae at. Quia pariatur, quasi vitae officiis delectus placeat. Fugit repellat modi dolore.
+                    </p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="icon">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  </div>
+                  <div class="about_text">
+                    <h3>Email</h3>
+                    <p>m.alijani002@gmail.com</p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="icon">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                  </div>
+                  <div class="about_text">
+                    <h3>Phone</h3>
+                    <p>502-7885-6545</p>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="contactform">
+                <form>
+                  <h2>FAST FOOD</h2>
+                  <h6>Login</h6>
+                  <div class="inputBox">
+                    <input type="text" name="" required="required" />
+                    <span>fullname</span>
+                  </div>
+                  <div class="inputBox">
+                    <input type="text" name="" required="required" />
+                    <span>Email</span>
+                  </div>
+                  <div class="inputBox">
+                    <input type="password" name="" required="required" />
+                    <span>Password</span>
+                  </div>
+                  <div class="inputBox">
+                    <input type="submit" name="" value="LOGIN" />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </div>
+        
+    <script src="script.js"></script>
+   
+  </body>
+</html>
